@@ -2,7 +2,13 @@
 
 Similarity in functional connectome architecture predicts teenage grit (2023)
 
+
 ### Workflow ###
+
+Overall, the analysis is consisted of two parts.
+If you need FC stability or similarity measures, you only have to run 1. Stabsim_Grit_FC.R!
+
+
 **1. StabSim_Grit_FC.R**
 
 requirement: functional connectome matrices
@@ -19,6 +25,8 @@ requirement: functional connectome matrices
 
 
 
+
+
 **2. StabSim_Grit_IS-RSA.ipynb**
 
 requirement: FC similarity measure calculated in 'StabSim_Grit_FC' and behavior scores
@@ -28,5 +36,8 @@ requirement: FC similarity measure calculated in 'StabSim_Grit_FC' and behavior 
 (2) IS-RSA: run IS-RSA with AnnaK framework and do permutation test
 
 (3) Network lesion: run the same process only with within-network functional connectivities according to Shen_268 atlas and then bring it back to IS-RSA
+
+
+-----------------------------------------------------------------------------------
 
 Behavioral data and neuroimaging data utilized in this code can be accessed through: http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/.
