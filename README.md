@@ -1,3 +1,6 @@
+[![DOI](https://sandbox.zenodo.org/badge/647242175.svg)](https://sandbox.zenodo.org/badge/latestdoi/647242175)
+
+
 # StabSim_Grit
 
 Similarity in functional connectome architecture predicts teenage grit (2023)
