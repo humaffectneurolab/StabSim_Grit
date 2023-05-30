@@ -5,9 +5,7 @@ Similarity in functional connectome architecture predicts teenage grit (2023)
 
 ### Workflow ###
 
-Overall, the analysis is consisted of two parts.
-
-If you need FC stability or similarity measures, you only have to run 1. Stabsim_Grit_FC.R!
+Overall, the analysis is consisted of two parts. If you need FC stability or similarity measures, you only have to run 1. Stabsim_Grit_FC.R!
 
 
 
