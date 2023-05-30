@@ -9,7 +9,7 @@ Overall, the analysis is consisted of two parts. If you need FC stability or sim
 
 **1. StabSim_Grit_FC.R**
 
-!requirement: functional connectome matrices
+requirement: functional connectome matrices
 
 (1) Bring in the data: bring the FC data and vectorize it
 
@@ -25,7 +25,7 @@ Overall, the analysis is consisted of two parts. If you need FC stability or sim
 
 **2. StabSim_Grit_IS-RSA.ipynb**
 
-!requirement: FC similarity measure calculated in 'StabSim_Grit_FC' and behavior scores
+requirement: FC similarity measure calculated in 'StabSim_Grit_FC' and behavior scores
 
 (1) Get ready: python dependencies, get FC similarity and behavior data
 
