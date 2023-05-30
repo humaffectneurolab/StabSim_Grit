@@ -3,7 +3,8 @@
 Similarity in functional connectome architecture predicts teenage grit (2023)
 
 ### Workflow ###
-1. StabSim_Grit_FC.R
+**1. StabSim_Grit_FC.R**
+
 require: Functional connectome matrices
 
 (1) Bring in the data: you will bring the FC data and vectorize it
