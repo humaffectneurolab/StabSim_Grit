@@ -17,13 +17,9 @@ Here, we calculate FC stability and similarity features using fMRI data from mul
 [requirement] functional connectome matrices
 
 (1) Bring in the data: bring the FC data and vectorize it
-
 (2) Connectome stability: calculate within-subject FC stability (cross_movie stability as an example)
-
 (3) Connectome similarity: calculate between-subject FC similarity (movieDM similarity as an example)
-
 - calculate mean stability and mean similarity and bind up all the calculated FC measures. output (filename(1)) 
-
 (4) Brain-Behavior: conduct multiple linear regression and get partial correlation
 
 
@@ -35,11 +31,8 @@ We use FC similarity measure calculated above as an input for brain metric in IS
 [requirement] FC similarity measure calculated in 'StabSim_Grit_FC' and behavior scores
 
 (1) Get ready: python dependencies, get FC similarity and behavior data
-
 (2) IS-RSA: run IS-RSA with AnnaK framework and do permutation test
-
 (3) Network lesion: run the same process only with within-network functional connectivities according to Shen_268 atlas and then bring it back to IS-RSA
-
 
 
 -----------------------------------------------------------------------------------
