@@ -7,6 +7,8 @@ Similarity in functional connectome architecture predicts teenage grit (2023)
 
 Overall, the analysis is consisted of two parts. If you need FC stability or similarity measures, you only have to run 1. Stabsim_Grit_FC.R! You can find more detailed explanations about the procedures in the manuscript.
 
+Code for analysis are written in R (4.2.1) and Python.
+
 
 **1. StabSim_Grit_FC.R**
 
