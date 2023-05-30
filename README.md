@@ -13,8 +13,9 @@ require: functional connectome matrices
 
 (3) Connectome similarity: calculate between-subject FC similarity (movieDM similarity as an example)
 
----- calculate mean stability and mean similarity and bind up all the calculated FC measures. output (filename(1)) ----
----- input for IS-RSA: output (filename(2)) of this is only needed when you perform IS-RSA with similarity measures. Basically, you list up subjects from low grit to high grit (or other way around) and calculate movieTP similarity so that the measures are listed up in order --- 
+- calculate mean stability and mean similarity and bind up all the calculated FC measures. output (filename(1)) 
+
+- input for IS-RSA: output (filename(2)) of this is only needed when you perform IS-RSA with similarity measures. Basically, you list up subjects from low grit to high grit (or other way around) and calculate movieTP similarity so that the measures are listed up in order  
 
 (4) Brain-Behavior: conduct multiple linear regression and get partial correlation
 
