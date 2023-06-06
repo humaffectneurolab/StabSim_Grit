@@ -7,7 +7,7 @@ Similarity in functional connectome architecture predicts teenage grit (2023)
 
 Overall, the analysis is consisted of two parts. If you need FC stability or similarity measures, you only have to run 1. Stabsim_Grit_FC.R! You can find more detailed explanations about the procedures in the manuscript.
 
-Code for analysis are written in R (4.2.1) and Python.
+Code for analysis are written in R (4.2.1) and Python (3.9.12).
 
 
 **1. StabSim_Grit_FC.R**
@@ -30,6 +30,7 @@ Here, we calculate FC stability and similarity features using fMRI data from mul
 **2. StabSim_Grit_IS-RSA.ipynb**
 
 We use FC similarity measure calculated above as an input for brain metric in IS-RSA :)
+Codes are adapted from Dartbrains tutorial: https://naturalistic-data.org/content/Intersubject_RSA.html
 
 [requirement] FC similarity measure calculated in 'StabSim_Grit_FC' and behavior scores
 
